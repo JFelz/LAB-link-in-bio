@@ -11,7 +11,7 @@ section {
 .white {
   background-color: antiquewhite;
 }
-img {
+.profPhoto {
   border-radius: 50%;
   width: 200px;
 }
@@ -20,4 +20,8 @@ img {
   flex-wrap: wrap;
   text-align: center;
   color: rgb(241, 241, 241);
+}
+.imgOrder {
+  display: flex;
+  flex-wrap: wrap;
 }
