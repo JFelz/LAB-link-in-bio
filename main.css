@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(37, 37, 37);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.white {
+  background-color: antiquewhite;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+.personalInfo {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: rgb(241, 241, 241);
+}
