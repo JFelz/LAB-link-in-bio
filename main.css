@@ -19,7 +19,7 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  
+
   color: rgb(241, 241, 241);
 }
 .imgOrder {
@@ -32,4 +32,25 @@ section {
   height: 35px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.btn-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.btn {
+  width: 75%;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;;
+  border-radius: 7px;
+  color: azure;
+  background-color: rgb(20, 20, 20);
+}
+.logoSize {
+  display: block;
+  margin-top: auto;
+  width: 15px;
+  height: 25px;
 }
