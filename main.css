@@ -17,11 +17,19 @@ section {
 }
 .personalInfo {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
+  
   color: rgb(241, 241, 241);
 }
 .imgOrder {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.imgSize {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
